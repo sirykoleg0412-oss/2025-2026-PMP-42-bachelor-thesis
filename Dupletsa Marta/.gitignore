@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets
+datasets/
+VOC/
+VOCdevkit/
+data/images/
+data/labels/
+
+# YOLO runs and large results
+runs/
+runs_diploma/
+*.pt
+*.onnx
+*.engine
+
+# System files
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
